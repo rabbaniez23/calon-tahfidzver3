@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Calon Tahfidz Landing Page Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#eebd2b",
+                        "primary-hover": "#d4a720",
+                        "navy-dark": "#1a202c",
+                        "navy-light": "#2d3748",
+                        "background-light": "#fcfbf8",
+                        "background-alt": "#f3f0e7",
+                        "background-dark": "#221d10",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px"},
+                    backgroundImage: {
+                        'islamic-pattern': "url('data:image/svg+xml,%3Csvg width=\\'60\\' height=\\'60\\' viewBox=\\'0 0 60 60\\' xmlns=\\'http://www.w3.org/2000/svg\\'%3E%3Cg fill=\\'none\\' fill-rule=\\'evenodd\\'%3E%3Cg fill=\\'%23eebd2b\\' fill-opacity=\\'0.05\\'%3E%3Cpath d=\\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')",
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d1d5db; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9ca3af; 
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body class="font-display bg-background-light text-navy-dark overflow-x-hidden">
+<!-- Sticky Navigation Bar -->
+<nav class="fixed top-0 left-0 right-0 z-50 glass-effect transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="size-10 bg-primary/20 rounded-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-size: 28px;">mosque</span>
+</div>
+<div>
+<h1 class="text-xl font-bold tracking-tight text-navy-dark">Calon Tahfidz</h1>
+</div>
+</div>
+<div class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#methodology">Methodology</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#programs">Programs</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#gallery">Gallery</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="lg:hidden p-2 text-navy-dark">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<button class="hidden lg:flex bg-primary hover:bg-primary-hover text-navy-dark font-bold text-sm px-6 py-2.5 rounded-xl shadow-lg shadow-primary/20 transition-all hover:scale-105 active:scale-95">
+                    Daftar Sekarang
+                </button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative w-full h-auto min-h-screen pt-20 flex items-center justify-center overflow-hidden">
+<!-- Background Image with Overlay -->
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10"></div>
+<img alt="Background" class="w-full h-full object-cover object-center" data-alt="Young muslim student reciting Quran in a peaceful mosque setting with warm sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3En3lYP67zicavnVwew9h-vzGczxm3zZ7fCF5Xy8b9XOmLnsu0VD08bV6W_T6Q2AkxNdaadhOkBzR8pYhYpVQkAk9pto99sx7fBHpCRx2d153ZSKR28R-fJE56yYYnPmVjJNprobzbTccEBET9aBba8aMq63Z6vLpnTMOMe0BfGHo48T7w2sQJi3qCfOjTYzEcRNz72qhQkvV3QfDCOcB_zulFCBYeLKgwqwtyGbbVqnlYYqiOmzruSYv8dEElkLkSQqfXzwe-RSo"/>
+</div>
+<div class="relative z-20 max-w-7xl mx-auto px-6 lg:px-12 w-full pt-12 pb-32 flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white/90 text-sm font-medium mb-2">
+<span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                Pendaftaran Gelombang 1 Dibuka
+            </div>
+<h1 class="text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] tracking-tight max-w-4xl text-shadow">
+                Mencetak Generasi <br/>
+<span class="text-primary">Penghafal Al-Qur'an</span> <br/>
+                yang Mutqin
+            </h1>
+<p class="text-lg text-white/90 max-w-2xl font-light leading-relaxed">
+                Kurikulum terpadu berbasis adab, lingkungan asri yang mendukung fokus, dan dibimbing langsung oleh Ustadz &amp; Ustadzah bersanad.
+            </p>
+<div class="flex flex-wrap gap-4 mt-4">
+<button class="bg-primary hover:bg-primary-hover text-navy-dark font-bold text-base px-8 py-3.5 rounded-xl shadow-xl shadow-primary/20 transition-all hover:-translate-y-1">
+                    Daftar Gelombang 1
+                </button>
+<button class="bg-transparent border-2 border-white/30 hover:bg-white/10 text-white font-bold text-base px-8 py-3.5 rounded-xl backdrop-blur-sm transition-all flex items-center gap-2">
+<span class="material-symbols-outlined">description</span>
+                    Lihat Kurikulum
+                </button>
+</div>
+</div>
+<!-- Floating Stats Bar (Overlapping Hero) -->
+<div class="absolute bottom-0 translate-y-1/2 left-0 right-0 z-30 px-6">
+<div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl border border-gray-100 p-6 lg:p-10 flex flex-wrap lg:flex-nowrap justify-between gap-8 items-center">
+<div class="flex items-center gap-5 flex-1 min-w-[200px]">
+<div class="size-14 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-navy-dark">500+</h3>
+<p class="text-gray-500 font-medium">Alumni Penghafal</p>
+</div>
+</div>
+<div class="hidden lg:block w-px h-16 bg-gray-200"></div>
+<div class="flex items-center gap-5 flex-1 min-w-[200px]">
+<div class="size-14 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-navy-dark">30+</h3>
+<p class="text-gray-500 font-medium">Ustadz Bersanad</p>
+</div>
+</div>
+<div class="hidden lg:block w-px h-16 bg-gray-200"></div>
+<div class="flex items-center gap-5 flex-1 min-w-[200px]">
+<div class="size-14 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">trophy</span>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-navy-dark">100%</h3>
+<p class="text-gray-500 font-medium">Target Tercapai</p>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Why Choose Us Section -->
+<section class="pt-32 pb-20 px-6 lg:px-12 bg-background-light bg-islamic-pattern" id="methodology">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<span class="text-primary font-bold uppercase tracking-wider text-sm">Keunggulan Kami</span>
+<h2 class="text-3xl lg:text-4xl font-bold text-navy-dark mt-2">Kenapa Memilih Calon Tahfidz?</h2>
+<p class="text-gray-500 mt-4 max-w-2xl mx-auto">Kami menyediakan ekosistem terbaik untuk mendukung proses menghafal yang efisien dan berkualitas.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group p-8 rounded-2xl bg-[#f0f9ff] border border-transparent hover:border-blue-200 transition-all hover:shadow-lg">
+<div class="size-16 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">import_contacts</span>
+</div>
+<h3 class="text-xl font-bold text-navy-dark mb-3">Metode Talaqqi</h3>
+<p class="text-gray-600 leading-relaxed">Belajar langsung berhadapan dengan guru untuk memastikan makhraj dan tajwid yang tepat sejak awal.</p>
+</div>
+<!-- Card 2 -->
+<div class="group p-8 rounded-2xl bg-[#f0fdf4] border border-transparent hover:border-green-200 transition-all hover:shadow-lg">
+<div class="size-16 rounded-xl bg-green-100 text-green-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">home_work</span>
+</div>
+<h3 class="text-xl font-bold text-navy-dark mb-3">Asrama Eksklusif</h3>
+<p class="text-gray-600 leading-relaxed">Lingkungan asrama yang bersih, nyaman, dan kondusif, terpisah antara ikhwan dan akhwat.</p>
+</div>
+<!-- Card 3 -->
+<div class="group p-8 rounded-2xl bg-[#fffbeb] border border-transparent hover:border-yellow-200 transition-all hover:shadow-lg">
+<div class="size-16 rounded-xl bg-yellow-100 text-yellow-600 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl">workspace_premium</span>
+</div>
+<h3 class="text-xl font-bold text-navy-dark mb-3">Sertifikat Resmi</h3>
+<p class="text-gray-600 leading-relaxed">Lulusan mendapatkan ijazah tahfidz yang diakui dan sanad bagi yang berhasil menyelesaikan setoran.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Programs Section (Pricing Table Style) -->
+<section class="py-20 px-6 lg:px-12 bg-background-alt" id="programs">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<span class="text-primary font-bold uppercase tracking-wider text-sm">Pilihan Program</span>
+<h2 class="text-3xl lg:text-4xl font-bold text-navy-dark mt-2">Program Unggulan</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+<!-- Program 1: Regular -->
+<div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow relative">
+<h3 class="text-lg font-bold text-navy-dark">Regular Program</h3>
+<p class="text-sm text-gray-500 mb-6">Untuk pemula hingga menengah</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-sm font-semibold text-gray-500">Rp</span>
+<span class="text-4xl font-black text-navy-dark">5jt</span>
+<span class="text-gray-500">/bulan</span>
+</div>
+<ul class="space-y-4 mb-8">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 text-sm mt-1">check_circle</span>
+<span class="text-sm text-gray-600">Asrama reguler (4 orang/kamar)</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 text-sm mt-1">check_circle</span>
+<span class="text-sm text-gray-600">Makan 3x sehari</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 text-sm mt-1">check_circle</span>
+<span class="text-sm text-gray-600">Bimbingan harian</span>
+</li>
+</ul>
+<button class="w-full py-3 bg-gray-100 hover:bg-gray-200 text-navy-dark font-bold rounded-xl transition-colors">
+                        Daftar Regular
+                    </button>
+</div>
+<!-- Program 2: Holiday Camp (Highlighted) -->
+<div class="bg-white rounded-2xl p-8 border-2 border-primary shadow-xl shadow-primary/10 relative transform md:-translate-y-4">
+<div class="absolute top-0 right-0 -translate-y-1/2 translate-x-2">
+<span class="bg-primary text-navy-dark text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">Recommended</span>
+</div>
+<h3 class="text-xl font-bold text-navy-dark">Holiday Camp</h3>
+<p class="text-sm text-gray-500 mb-6">Program intensif liburan sekolah</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-sm font-semibold text-gray-500">Rp</span>
+<span class="text-4xl font-black text-navy-dark">3jt</span>
+<span class="text-gray-500">/batch</span>
+</div>
+<ul class="space-y-4 mb-8">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
+<span class="text-sm text-navy-dark font-medium">Fokus akselerasi hafalan</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
+<span class="text-sm text-navy-dark font-medium">Kegiatan outdoor &amp; memanah</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
+<span class="text-sm text-navy-dark font-medium">Sertifikat Camp</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-1">check_circle</span>
+<span class="text-sm text-navy-dark font-medium">Merchandise Eksklusif</span>
+</li>
+</ul>
+<button class="w-full py-3 bg-primary hover:bg-primary-hover text-navy-dark font-bold rounded-xl transition-colors shadow-lg shadow-primary/20">
+                        Daftar Camp
+                    </button>
+</div>
+<!-- Program 3: Executive -->
+<div class="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow relative">
+<h3 class="text-lg font-bold text-navy-dark">Executive Class</h3>
+<p class="text-sm text-gray-500 mb-6">Fasilitas premium &amp; privat</p>
+<div class="flex items-baseline gap-1 mb-6">
+<span class="text-sm font-semibold text-gray-500">Rp</span>
+<span class="text-4xl font-black text-navy-dark">10jt</span>
+<span class="text-gray-500">/bulan</span>
+</div>
+<ul class="space-y-4 mb-8">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 text-sm mt-1">check_circle</span>
+<span class="text-sm text-gray-600">Kamar AC (2 orang/kamar)</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 text-sm mt-1">check_circle</span>
+<span class="text-sm text-gray-600">Laundry &amp; Catering Premium</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-green-500 text-sm mt-1">check_circle</span>
+<span class="text-sm text-gray-600">1-on-1 dengan Syaikh</span>
+</li>
+</ul>
+<button class="w-full py-3 bg-gray-100 hover:bg-gray-200 text-navy-dark font-bold rounded-xl transition-colors">
+                        Daftar Executive
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery Section (Masonry) -->
+<section class="py-20 px-6 lg:px-12 bg-background-light" id="gallery">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-3xl lg:text-4xl font-bold text-navy-dark">Galeri Aktivitas</h2>
+</div>
+<div class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+<div class="break-inside-avoid relative group rounded-2xl overflow-hidden cursor-pointer">
+<img class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Students studying Quran together in a circle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgxS2VMveDGfV5Sv0EU1s_0-l4y3JDNtBUyWWmw1Wp6q6_2j5zVrHdGDWGxwgFbjyhoOqZrYUK6-v2eL_VLEY6CGHMuUXJoPR2Cb2ORoZo1z6sWseBio4A4hZvncGW-iyfnwRA720_KWa1ipzxANA109nBLT7Ivmuo4Qty5WtkZ6RsWH5C8_d7sIYocjRV_VdoYMnE4Z_5UlGHil910TStz1iEGikwFZmq3nj8KmFOHQ-pPtg7TaJlyoXxY606xZTC0PkPX8wYogtN"/>
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-medium">Halaqah Qur'an Pagi</p>
+</div>
+</div>
+<div class="break-inside-avoid relative group rounded-2xl overflow-hidden cursor-pointer">
+<img class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Archery practice in the open field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxP0BYo486LzNqwzirD6BZbsA3wt_CMO_DdprRJaH6j4Q-veNGNtboAZ2-BG_EoEdRBzofxHFvCO1mzpnk6hVGIXygPV-DgaH_DNZOhlT6dpg6KD-t10pW5qTK1ix12bhV9SErSUnZ1qe0nssZQoxN6q3B0U32ilY-RQvRn6lHYh4IenpatwrRfZhlGi_6iym9_FSB65HqTYQbG3v0oyGIGOSgtQCNUtL9mf0XjBuqgfZxsgo5tppOnAmH5x2K0ixYhPuRVNXsppNg"/>
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-medium">Ekstrakurikuler Memanah</p>
+</div>
+</div>
+<div class="break-inside-avoid relative group rounded-2xl overflow-hidden cursor-pointer">
+<img class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Students praying in congregation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2l7LuPy8qYSGZ-UrtDBU2Aa-rlljqoV4SncyYCygaIttAKMgwwmEpyl0TPBwGnODuSAZIvd_P5em-vJ1GLO7BmD86Nu5cQzJ6aD_JmrgHnYru_1niL0wDmwhGMyFsAcbPR7DBQzGKu9K2qGZsjyvbEeOKTqbTiK1FIXb7qpefYg23skvmXC01NUgJncyN_7CAfnX-fJk2iQGkcTNWlqwf_Y4q7kjWnrZUMrF_y082Yj6c7Rwf5dmBm7kNTtBW6IrLtZX4FQ5zkTVg"/>
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-medium">Sholat Berjamaah</p>
+</div>
+</div>
+<div class="break-inside-avoid relative group rounded-2xl overflow-hidden cursor-pointer">
+<img class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Student reading Quran outdoors in a garden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMM_IUKATQK9Lfaq35d2fD5rZKfUBIPWPFnlmJ-IYKUlMZ8eFfT1DKyMr03-9NlmXSl9ahwZm3OqvOQA3j4lV3P2DGh6s_45czEW4gAQv25cnYiWA9rFAY9Z5I3_3m0xQDyr_3RnZzpTE26mkGhFmf5lyqGA0m1MMv_Rts_xGxxiUGKGPR8o6xpnactQGpaGiwPcXTEgSqZ10El-d-WS_nt1BTL37cV8m8SftbgiqMthGfXrBGKAX6R0LJeU6YznCTJSzA8IjwpjqK"/>
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-medium">Murajaah Mandiri</p>
+</div>
+</div>
+<div class="break-inside-avoid relative group rounded-2xl overflow-hidden cursor-pointer">
+<img class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Students eating together in a dining hall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH19Hk_cnhCy6VOCMBZb05Pb0kZsbJTad5jbTwxeEZZL7th9yIV0kaetOmU4MA1-GB9_5-fwm-0KezO3NaBUMDr8drS1PpVm_9BQZo8u_XLJTp-bYY0IRoZv3hVM0KphE2jtn3pVigny7BzivYagv_95XQwDzXN0Gp_VdlDPzNbSXmMct0y9C7KvpfL0udCxH3ou_BcqwhLuR-kRUCE8p6uDj_-mAcSbJLELZBdoa1SJEppGUaI2N-PYcgTbKG2_kH5Xs3N1I21IGr"/>
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-medium">Makan Bersama</p>
+</div>
+</div>
+<div class="break-inside-avoid relative group rounded-2xl overflow-hidden cursor-pointer">
+<img class="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Graduation ceremony with students holding certificates" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3CnICJCduqfaUdSywMit7RQxRaZ3FZvpZ8veWd0GO6mpFx1uMVHzQ_gdu4omSH_h8rUAGiFvAO6iRZziG4YfQK4jqYfpY4AhDqjqDq1sG_sEbMj_Xe5tFj9WsV2JkJUuBdBEphBt51-sN_34UZFDFBSCNiUDQ9H4xh1kXImdWjxfKnV-ee5cmpYLSd1WnFe8qBomBHEMUa6OgN2w83eW-FYt_D9Njg_zR2pZ1qrKqe5OeVmc8nAk9qRklqO6oKo_vJVspR085go-F"/>
+<div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+<p class="text-white font-medium">Wisuda Tahfidz</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Timeline Journey -->
+<section class="py-20 px-6 lg:px-12 bg-background-alt overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<span class="text-primary font-bold uppercase tracking-wider text-sm">The Journey</span>
+<h2 class="text-3xl lg:text-4xl font-bold text-navy-dark mt-2">Langkah Menjadi Santri</h2>
+</div>
+<div class="relative">
+<!-- Line Connector (Desktop) -->
+<div class="hidden lg:block absolute top-1/2 left-0 w-full h-1 bg-gray-200 -translate-y-1/2 z-0"></div>
+<!-- Line Connector (Mobile) -->
+<div class="lg:hidden absolute top-0 bottom-0 left-8 w-1 bg-gray-200 z-0"></div>
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-6 relative z-10">
+<!-- Step 1 -->
+<div class="flex flex-row lg:flex-col items-center lg:text-center gap-6">
+<div class="size-16 rounded-full bg-emerald-500 text-white flex items-center justify-center shrink-0 border-4 border-white shadow-lg">
+<span class="material-symbols-outlined">edit_document</span>
+</div>
+<div class="text-left lg:text-center">
+<h3 class="text-xl font-bold text-navy-dark">Pendaftaran</h3>
+<p class="text-sm text-gray-500 mt-1">Isi formulir online dan lengkapi berkas.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-row lg:flex-col items-center lg:text-center gap-6">
+<div class="size-16 rounded-full bg-emerald-500 text-white flex items-center justify-center shrink-0 border-4 border-white shadow-lg">
+<span class="material-symbols-outlined">quiz</span>
+</div>
+<div class="text-left lg:text-center">
+<h3 class="text-xl font-bold text-navy-dark">Tes Seleksi</h3>
+<p class="text-sm text-gray-500 mt-1">Ujian bacaan Al-Qur'an dan wawancara.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-row lg:flex-col items-center lg:text-center gap-6">
+<div class="size-16 rounded-full bg-emerald-500 text-white flex items-center justify-center shrink-0 border-4 border-white shadow-lg">
+<span class="material-symbols-outlined">school</span>
+</div>
+<div class="text-left lg:text-center">
+<h3 class="text-xl font-bold text-navy-dark">Karantina</h3>
+<p class="text-sm text-gray-500 mt-1">Mulai program menghafal intensif.</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-row lg:flex-col items-center lg:text-center gap-6">
+<div class="size-16 rounded-full bg-primary text-navy-dark flex items-center justify-center shrink-0 border-4 border-white shadow-lg">
+<span class="material-symbols-outlined">workspace_premium</span>
+</div>
+<div class="text-left lg:text-center">
+<h3 class="text-xl font-bold text-navy-dark">Wisuda</h3>
+<p class="text-sm text-gray-500 mt-1">Ujian akhir dan penerimaan sanad.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Detailed Registration Section -->
+<section class="py-20 px-6 lg:px-12 bg-background-light" id="contact">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-start">
+<!-- Left Side: Copy & Info -->
+<div class="flex-1 space-y-8">
+<div>
+<h2 class="text-4xl lg:text-5xl font-extrabold text-navy-dark leading-tight">Siap Memulai Perjalanan Mulia?</h2>
+<p class="text-lg text-gray-600 mt-4 leading-relaxed">
+                        Jangan tunda niat baik Anda. Kursi terbatas untuk setiap gelombang demi menjaga kualitas bimbingan.
+                    </p>
+</div>
+<div class="bg-blue-50 p-6 rounded-xl border border-blue-100">
+<h3 class="font-bold text-navy-dark mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-blue-600">info</span>
+                        Syarat Pendaftaran
+                    </h3>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 text-gray-700 text-sm">
+<div class="size-1.5 rounded-full bg-blue-600"></div>
+                            Muslim/Muslimah usia 7 - 18 tahun
+                        </li>
+<li class="flex items-center gap-3 text-gray-700 text-sm">
+<div class="size-1.5 rounded-full bg-blue-600"></div>
+                            Mampu membaca Al-Qur'an dengan lancar
+                        </li>
+<li class="flex items-center gap-3 text-gray-700 text-sm">
+<div class="size-1.5 rounded-full bg-blue-600"></div>
+                            Sehat jasmani dan rohani
+                        </li>
+<li class="flex items-center gap-3 text-gray-700 text-sm">
+<div class="size-1.5 rounded-full bg-blue-600"></div>
+                            Bersedia tinggal di asrama selama program
+                        </li>
+</ul>
+</div>
+<div>
+<p class="text-sm font-medium text-gray-500 mb-2">Butuh bantuan?</p>
+<button class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-6 py-3 rounded-xl transition-colors w-full sm:w-auto shadow-lg shadow-green-200">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+                        Hubungi via WhatsApp
+                    </button>
+</div>
+</div>
+<!-- Right Side: Form -->
+<div class="flex-1 w-full">
+<div class="bg-white rounded-2xl shadow-xl border border-gray-100 p-8">
+<h3 class="text-2xl font-bold text-navy-dark mb-6">Formulir Pendaftaran</h3>
+<form class="space-y-5">
+<div class="space-y-1">
+<label class="text-sm font-semibold text-gray-700">Nama Lengkap Anak</label>
+<input class="w-full rounded-xl border-gray-200 focus:border-primary focus:ring-primary text-gray-800 py-3 bg-gray-50" placeholder="Masukkan nama lengkap" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-1">
+<label class="text-sm font-semibold text-gray-700">Usia</label>
+<input class="w-full rounded-xl border-gray-200 focus:border-primary focus:ring-primary text-gray-800 py-3 bg-gray-50" placeholder="Contoh: 12" type="number"/>
+</div>
+<div class="space-y-1">
+<label class="text-sm font-semibold text-gray-700">Jenis Kelamin</label>
+<div class="flex gap-4 mt-2">
+<label class="flex items-center gap-2 cursor-pointer">
+<input class="text-primary focus:ring-primary border-gray-300" name="gender" type="radio"/>
+<span class="text-sm text-gray-600">Laki-laki</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer">
+<input class="text-primary focus:ring-primary border-gray-300" name="gender" type="radio"/>
+<span class="text-sm text-gray-600">Perempuan</span>
+</label>
+</div>
+</div>
+</div>
+<div class="space-y-1">
+<label class="text-sm font-semibold text-gray-700">Hafalan Saat Ini</label>
+<select class="w-full rounded-xl border-gray-200 focus:border-primary focus:ring-primary text-gray-800 py-3 bg-gray-50">
+<option>Belum ada hafalan</option>
+<option>Juz 30</option>
+<option>1 - 5 Juz</option>
+<option>5 - 10 Juz</option>
+<option>Lebih dari 10 Juz</option>
+</select>
+</div>
+<div class="space-y-1">
+<label class="text-sm font-semibold text-gray-700">No. WhatsApp Orang Tua</label>
+<input class="w-full rounded-xl border-gray-200 focus:border-primary focus:ring-primary text-gray-800 py-3 bg-gray-50" placeholder="0812xxxx" type="tel"/>
+</div>
+<button class="w-full bg-primary hover:bg-primary-hover text-navy-dark font-bold py-3.5 rounded-xl shadow-lg shadow-primary/20 transition-all hover:-translate-y-1 mt-2" type="button">
+                            Kirim Pendaftaran
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-20 px-6 lg:px-12 bg-background-alt">
+<div class="max-w-3xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-navy-dark">Pertanyaan Umum (FAQ)</h2>
+</div>
+<div class="space-y-4">
+<details class="group bg-white rounded-xl p-6 [&amp;_summary::-webkit-details-marker]:hidden border border-transparent hover:border-gray-200 cursor-pointer">
+<summary class="flex cursor-pointer items-center justify-between text-navy-dark font-bold text-lg">
+<span>Apakah orang tua boleh menjenguk?</span>
+<span class="shrink-0 transition duration-300 group-open:-rotate-180">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</summary>
+<p class="mt-4 leading-relaxed text-gray-600">
+                        Tentu, orang tua diperbolehkan menjenguk santri setiap 2 minggu sekali pada hari Ahad, sesuai dengan jadwal kunjungan yang telah ditetapkan pihak asrama.
+                    </p>
+</details>
+<details class="group bg-white rounded-xl p-6 [&amp;_summary::-webkit-details-marker]:hidden border border-transparent hover:border-gray-200 cursor-pointer">
+<summary class="flex cursor-pointer items-center justify-between text-navy-dark font-bold text-lg">
+<span>Bagaimana jika anak belum lancar membaca Al-Qur'an?</span>
+<span class="shrink-0 transition duration-300 group-open:-rotate-180">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</summary>
+<p class="mt-4 leading-relaxed text-gray-600">
+                        Kami menyarankan calon santri untuk mengambil program Tahsin Pra-Karantina terlebih dahulu. Namun, untuk program Regular, akan ada kelas khusus pemula (Tahsin) sebelum masuk ke program Tahfidz.
+                    </p>
+</details>
+<details class="group bg-white rounded-xl p-6 [&amp;_summary::-webkit-details-marker]:hidden border border-transparent hover:border-gray-200 cursor-pointer">
+<summary class="flex cursor-pointer items-center justify-between text-navy-dark font-bold text-lg">
+<span>Apa saja barang yang harus dibawa saat masuk asrama?</span>
+<span class="shrink-0 transition duration-300 group-open:-rotate-180">
+<span class="material-symbols-outlined">expand_more</span>
+</span>
+</summary>
+<p class="mt-4 leading-relaxed text-gray-600">
+                        Santri cukup membawa pakaian sehari-hari secukupnya, perlengkapan mandi pribadi, dan obat-obatan khusus jika ada. Perlengkapan tidur dan makan sudah disediakan oleh asrama.
+                    </p>
+</details>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-navy-dark text-white pt-20 pb-10 relative overflow-hidden">
+<!-- Pattern Overlay -->
+<div class="absolute inset-0 opacity-5 bg-islamic-pattern pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Brand -->
+<div>
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 bg-primary rounded-lg flex items-center justify-center text-navy-dark">
+<span class="material-symbols-outlined">mosque</span>
+</div>
+<h2 class="text-xl font-bold">Calon Tahfidz</h2>
+</div>
+<p class="text-gray-400 leading-relaxed mb-6">
+                        Membangun generasi Qur'ani yang beradab, cerdas, dan bermanfaat bagi umat.
+                    </p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-navy-dark transition-all" href="#">
+<!-- Twitter Icon SVG placeholder -->
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+</a>
+<a class="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-navy-dark transition-all" href="#">
+<!-- Instagram Icon SVG placeholder -->
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+</a>
+<a class="size-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-navy-dark transition-all" href="#">
+<!-- Facebook Icon SVG placeholder -->
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="font-bold text-lg mb-6 text-primary">Tautan Cepat</h3>
+<ul class="space-y-3">
+<li><a class="text-gray-400 hover:text-white transition-colors" href="#">Tentang Kami</a></li>
+<li><a class="text-gray-400 hover:text-white transition-colors" href="#">Program</a></li>
+<li><a class="text-gray-400 hover:text-white transition-colors" href="#">Fasilitas</a></li>
+<li><a class="text-gray-400 hover:text-white transition-colors" href="#">Berita &amp; Artikel</a></li>
+<li><a class="text-gray-400 hover:text-white transition-colors" href="#">Karir</a></li>
+</ul>
+</div>
+<!-- Contact -->
+<div>
+<h3 class="font-bold text-lg mb-6 text-primary">Hubungi Kami</h3>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 text-gray-400">
+<span class="material-symbols-outlined text-primary shrink-0">location_on</span>
+<span>Jl. H. Nawi Raya No. 123, Gandaria Selatan, Jakarta Selatan</span>
+</li>
+<li class="flex items-center gap-3 text-gray-400">
+<span class="material-symbols-outlined text-primary shrink-0">call</span>
+<span>+62 812 3456 7890</span>
+</li>
+<li class="flex items-center gap-3 text-gray-400">
+<span class="material-symbols-outlined text-primary shrink-0">mail</span>
+<span>info@calontahfidz.com</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="font-bold text-lg mb-6 text-primary">Newsletter</h3>
+<p class="text-gray-400 mb-4 text-sm">Dapatkan informasi terbaru mengenai pendaftaran dan artikel islami.</p>
+<form class="flex flex-col gap-3">
+<input class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" placeholder="Email Anda" type="email"/>
+<button class="bg-primary hover:bg-primary-hover text-navy-dark font-bold py-3 rounded-lg transition-colors">
+                            Langganan
+                        </button>
+</form>
+</div>
+</div>
+<div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-500 text-sm">© 2024 Calon Tahfidz Academy. All rights reserved.</p>
+<div class="flex gap-6 text-sm text-gray-500">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
